@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    char str[40];
+    puts("enter any string: ");
+    gets(str);                                  // input
+    puts(str);                                  // output
+
+    return 0;
+}
